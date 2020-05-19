@@ -7,6 +7,7 @@ class square():
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """ Testing """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
